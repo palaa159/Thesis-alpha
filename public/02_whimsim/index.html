@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" href="../shared_css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="js/counter/jquery.counter-analog2.css"></head>
+<body>
+	<div id="container">
+		<img id="gometer" src="img/gometer.png">
+		<div id="counterContainer">
+			<span id="countBytes" class="counter counter-analog2" data-direction="up" data-interval="10" data-format="99999999" data-stop="5">0</span>
+		</div>
+		<div id="suffix">bytes of your data have been collected in Mountain View <br>since <span id="since">seconds ago.</span></div>
+	</div>
+
+	<script src="../shared_js/jquery.min.js"></script>
+	<script src="../shared_js/bootstrap.min.js"></script>
+	<script src="../shared_js/moment.js"></script>
+	<script src="js/counter/jquery.counter.js"></script>
+	<script src="http://localhost:3001/socket.io/socket.io.js"></script>
+	<script src="../shared_js/connect.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

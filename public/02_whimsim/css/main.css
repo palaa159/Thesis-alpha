@@ -1,0 +1,33 @@
+body { 
+	background: url('../img/gplex.jpg') no-repeat;
+	background-size: cover;
+}
+
+#container {
+}
+
+#counterContainer {
+	position: absolute;
+	background: white;
+	padding: 2px 2px;
+	border-radius: 10px;
+	border: 10px #343434 solid;
+}
+
+#gometer {
+	position:absolute;
+	z-index: 9;
+}
+
+#suffix {
+	position: absolute;
+	background: white;
+	display: inline;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: 500;
+	z-index: -9;
+	border-radius: 10px;
+	border: 5px #343434 solid;
+	text-align: center;
+}

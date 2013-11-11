@@ -1,0 +1,18 @@
+* {
+	margin:0;
+	padding:0;
+}
+#map {
+	position: absolute;
+}
+#tpoint {
+	position: absolute;
+	background: red;
+	width:5px;
+	height:5px;
+	border-radius: 50%;
+}
+#myCanvas {
+	position: absolute;
+	top: 0; left: 0;
+}
